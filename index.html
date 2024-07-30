@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Access Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="access-card">
+        <h2>Share with people and teams</h2>
+        <div class="input-share-container">
+            <input type="text" placeholder="Enter teams, people or email addresses" class="input-field">
+            <button class="share-button">Share</button>
+        </div>
+        <div class="access-list">
+            <h3>People with access</h3>
+
+            <div class="access-item">
+                <span class="name">Olivia Wilson</span>
+                <select class="access-dropdown">
+                    <option value="full">Full access</option>
+                    <option value="edit">Can edit</option>
+                    <option value="view">Can view</option>
+                </select>
+            </div>
+            <div class="access-item">
+                <span class="name">Bernard Van der Heyden</span>
+                <select class="access-dropdown">
+                    <option value="full">Full access</option>
+                    <option value="edit">Can edit</option>
+                    <option value="view">Can view</option>
+                </select>
+            </div>
+            <div class="access-item">
+                <span class="name">Esma Janssen</span>
+                <select class="access-dropdown">
+                    <option value="full">Full access</option>
+                    <option value="edit">Can edit</option>
+                    <option value="view">Can view</option>
+                </select>
+            </div>
+        </div>
+        <div class="team-access">
+            <h3>Teams with access</h3>
+            <div class="team-item">
+                <span class="team-name">Engineering</span>
+                <select class="access-dropdown">
+                    <option value="full">Full access</option>
+                    <option value="edit">Can edit</option>
+                    <option value="view">Can view</option>
+                </select>
+            </div>
+            <div class="team-item">
+                <span class="team-name">Design</span>
+                <select class="access-dropdown">
+                    <option value="full">Full access</option>
+                    <option value="edit">Can edit</option>
+                    <option value="view">Can view</option>
+                </select>
+            </div>
+        </div>
+        <div class="link-access">
+            <span>Anyone with the link</span>
+            <select class="access-dropdown">
+                <option value="view">Can view</option>
+            </select>
+            <button class="copy-link-button">Copy Link</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
